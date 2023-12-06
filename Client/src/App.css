@@ -1,0 +1,86 @@
+.mainSection {
+  height: 90vh;
+  background-color: rgb(228, 228, 228);
+  width: 90vw;
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+.sidebar {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar > .title {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: xx-large;
+  color: darkslategrey;
+}
+.sidebar > .searchBox {
+  background-color: aliceblue;
+  padding: 8px;
+  margin: 5px 10px;
+  border-radius: 20px;
+}
+.searchBox input {
+  width: 80%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.messageSection {
+  flex: 0.6;
+  border: 2px solid blue;
+}
+.sidebar > .users {
+  background-color: aliceblue;
+  padding-left: 10px;
+  margin: 5px 10px;
+  border-radius: 20px;
+  height: 100%;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.users > .messageInfo {
+  margin: 10px;
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(237, 210, 210);
+  border-radius: 5px;
+}
+.messageInfo > .user__icon {
+  background-color: rgb(210, 222, 218);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  color: rgb(97, 96, 96);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.user_nameData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: max-content;
+}
+
+.time__Stamp {
+  margin-left: 256px;
+}
